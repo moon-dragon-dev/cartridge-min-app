@@ -1,0 +1,11 @@
+cartridge-min-app.rs1-master:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+cartridge-min-app.rs1-replica:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+cartridge-min-app-stateboard:
+  listen: localhost:4401
+  password: passwd
